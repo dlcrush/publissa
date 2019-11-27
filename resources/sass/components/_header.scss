@@ -1,0 +1,23 @@
+.app-header {
+    background-color: $primary-green;
+    color: $primary-white;
+    min-height: 52px;
+
+    .app-menu {
+        background-color: inherit;
+        color: inherit;
+        position: relative;
+
+        .brand {
+            font-family: 'Pacifico', cursive;
+            color: $primary-dark;
+            font-size: 28px;
+            font-weight: 800;
+            padding: 0;
+        }
+
+        .app-bar-menu {
+            margin-left: auto;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.apps-list {
+    .apps-card {
+        background-color: #277672;
+        color: $primary-white;
+        margin-bottom: 15px;
+        border-color: $primary-dark;
+        height: 110px;
+
+        &:hover {
+            background-color: darken(#277672, 10%);
+        }
+    }
+
+    .apps-card-link {
+        text-decoration: none !important;
+    }
+}
